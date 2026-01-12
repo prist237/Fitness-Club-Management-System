@@ -66,8 +66,11 @@ psql -U postgres
 
 CREATE DATABASE fitness_club;
 
-6. Configure the database URL
-Inside app/database.py, update:
+6. Configure the database connection
+
+The application uses environment variables to manage database configuration securely.
+
+Create a .env file in the project root and define the database connection string:
 
 DATABASE_URL = "postgresql+psycopg2://postgres:YOURPASSWORD@localhost:5432/fitness_club"
 Replace YOURPASSWORD with your actual PostgreSQL password.
