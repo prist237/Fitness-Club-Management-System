@@ -1,7 +1,6 @@
 # Fitness Club Management System  
 COMP 3005 — Final Project  
 Author: Prisca Love
-ID: 101259306
 Database: PostgreSQL  
 ORM: SQLAlchemy (ORM Bonus Included)
 
